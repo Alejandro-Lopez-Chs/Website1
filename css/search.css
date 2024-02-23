@@ -28,6 +28,7 @@ body{
     height: 50px;
     width: 50px;
     cursor: pointer;
+    transition: transform 1s ease;
 }
 
 .search .input{
@@ -37,6 +38,7 @@ body{
     height: 50px;
     width: 50px;
     padding: 15px;
+    transition: width 1s ease;
 }
 
 .search .input:focus {
