@@ -11,6 +11,7 @@ body {
 
 .loading-text{
     font-size: 50px;
+    color: white;
 }
 
 
@@ -22,4 +23,9 @@ body {
     position: absolute;
     z-index: -1;
     background-image: url("images/goku.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
 }
