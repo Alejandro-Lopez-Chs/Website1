@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
+
+body {
+    background-color: rgb(144, 240, 177);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn {
+    background-color: MediumSeaGreen;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 213, 264);
+    cursor: pointer;
+    font-family: "Micro 5", sans-serif;
+}
+.btn:hover {
+    opacity: 0.9;
+}
