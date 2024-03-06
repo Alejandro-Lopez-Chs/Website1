@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: rgb(48,51,107);
-    --secondary-color: rgb()
+    --secondary-color: #9b87a8;
 }
 * {
     box-sizing: border-box
