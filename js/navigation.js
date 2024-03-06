@@ -2,4 +2,6 @@ nav = document.querySelector('.nav')
 
 window.addEventListener('scroll',fixNav)
 
-function
+function fixNav() {
+    console.log("hello")
+}
