@@ -95,3 +95,9 @@ button, input[type='submit'] {
     top: 20px;
     left: 20px;
 }
+
+.cta-btn {
+    padding: 12px 30px;
+    font-size: 20px;
+}
+
