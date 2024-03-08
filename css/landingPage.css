@@ -101,3 +101,8 @@ button, input[type='submit'] {
     font-size: 20px;
 }
 
+.container {
+    padding: 15px;
+    margin: 0 auto;
+    width: 800px
+}
