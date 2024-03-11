@@ -133,4 +133,6 @@ button, input[type='submit'] {
 .model-header {
     background-color: var(--primary-color);
     color: white;
+    padding: 15px;
 }
+
