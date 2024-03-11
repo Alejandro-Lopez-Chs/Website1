@@ -3,7 +3,7 @@
 :root {
     --primary-color: rgb(48,51,107);
     --secondary-color: #9b87a8;
-    --modal-duration: 42s;
+    --modal-duration: 1s;
 }
 
 * {
