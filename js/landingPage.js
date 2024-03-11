@@ -12,6 +12,6 @@ open.addEventListener('click', () => {
     modal.classList.add('show-modal')
 })
 
-close.addEvetnListener('click', () => {
+close.addEventListener('click', () => {
     modal.classList.remove('show-modal')
 })
