@@ -3,11 +3,11 @@
 :root {
     --primary-color: rgb(48,51,107);
     --secondary-color: #9b87a8;
-    --modal-duration:
+    --modal-duration: 42s;
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
