@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Raleway", sans-serif;
     background-color: rgb(255, 244, 231);
 }
 
 .panel {
-    height: 80vh;
-    border-radius: 50px;
     color: black;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
-    position: center;
+    position: relative;
 }
