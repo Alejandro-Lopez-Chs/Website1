@@ -8,19 +8,20 @@ body {
     background-color: rgb(255, 244, 231);
 }
 .container {
-
     height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px;
+    margin: 0;
 }
 
-.panel {
+.panel h3 {
     color: black;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
+    left: 20px;
+    right: 100px;
     position: relative;
     align-items: center;
 }
