@@ -3,10 +3,17 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     font-family: "Raleway", sans-serif;
     background-color: rgb(255, 244, 231);
+}
+.container {
+
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
 
 .panel {
