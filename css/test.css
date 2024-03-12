@@ -21,8 +21,10 @@ body {
 }
 
 .panel h3 {
+    align-items: center;
     color: black;
     cursor: pointer;
-    margin: 10px;
+    margin: 0;
     right: 60px;
+    width: 150px
 }
