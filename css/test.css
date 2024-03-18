@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: "Raleway", sans-serif;
     background-color: rgb(255, 244, 231);
@@ -43,13 +44,14 @@ h3 {
     width: 150px;
     transition: opactiy .2s ease-out;
 }
+
 h3.active {
     opacity: 0;
     transition: opacity .2s ease-in;
 
 }
 
-a.button {
+a.button  {
     padding: 1px 6px;
     border: 1px outset buttonborder;
     border-radius: 3px;
@@ -58,11 +60,11 @@ a.button {
     text-decoration: none;
 }
 
-nav {
-    background-color: red;
+.bar .nav {
+    background-color: CadetBlue;
     position: fixed;
-    top: 0;
-    left: 100px;
+    top: 60px;
+    left: 10px;
     width: 200px;
     height: ;
     border-right: 2px solid rgba(200, 200, 200, .1);
@@ -71,11 +73,38 @@ nav {
 
 }
 
+.bar .nav.active {
+    background-color: CadetBlue;
+    position: fixed;
+    top: 60px;
+    left: 10px;
+    width: 200px;
+    height: ;
+    border-right: 2px solid rgba(200, 200, 200, .1);
+    z-index: 100;
+    color: white;
+    opacity: 0;
+}
+.bar .btn {
+    background-color: Aquamarine;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 156px;
+    padding: 10px;
+    margin: 1rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.bar .btn.active {
+    rotate: 180deg;
+}
 nav ul li a {
     color: white;
     text-decoration: none;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -91,3 +120,4 @@ nav ul li {
 nav ul li:nth-of-type(1) {
     border-top: 2px solid rgba(200, 200, 200, .1);
 }
+

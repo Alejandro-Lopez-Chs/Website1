@@ -28,6 +28,74 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(0px);
-
-
 }
+
+a.button  {
+        padding: 1px 6px;
+        border: 1px outset buttonborder;
+        border-radius: 3px;
+        color: buttontext;
+        background-color: buttonface;
+        text-decoration: none;
+    }
+
+    .bar .nav {
+        background-color: CadetBlue;
+        position: fixed;
+        top: 60px;
+        left: 10px;
+        width: 200px;
+        height: ;
+        border-right: 2px solid rgba(200, 200, 200, .1);
+        z-index: 100;
+        color: white;
+
+    }
+
+    .bar .nav.active {
+        background-color: CadetBlue;
+        position: fixed;
+        top: 60px;
+        left: 1000000px;
+        width: 200px;
+        height: ;
+        border-right: 2px solid rgba(200, 200, 200, .1);
+        z-index: 100;
+        color: white;
+        opacity: 0;
+    }
+    .bar .betn {
+        background-color: Aquamarine;
+        font-size: 20px;
+        position: absolute;
+        top: 0px;
+        left: 156px;
+        padding: 10px;
+        margin: 1rem;
+        border: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .bar .betn.active {
+        rotate: 180deg;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 19px;
+        border-bottom: 2px solid rgba(200, 200, 200, .1);
+    }
+
+    nav ul li:nth-of-type(1) {
+        border-top: 2px solid rgba(200, 200, 200, .1);
+    }

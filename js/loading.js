@@ -1,6 +1,14 @@
 loadText = document.querySelector('.loading-text')
 bg = document.querySelector('.bg')
 
+betn = document.querySelector('.betn')
+nav = document.querySelector('.nav')
+
+betn.addEventListener('click', () => {
+    nav.classList.toggle('active')
+    betn.classList.toggle('active')
+})
+
 load = 0
 
 int = setInterval(blurring, 35)
